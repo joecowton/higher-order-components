@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 
-
 class Header extends Component {
   authButton() {
     return <button>Sign In</button>
   }
-
 
   render() {
     return (

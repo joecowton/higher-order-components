@@ -11,4 +11,8 @@ describe('App' , () => {
   it('renders something', () => {
     expect(component).to.exist;
   });
+
+  it('shows a header', () => {
+  expect(component.find('.header-navbar')).to.exist;
+})
 });
